@@ -1,0 +1,26 @@
+{
+  "$schema": "aims-ecosystem-node/v1",
+  "nodeId": "locale-v2",
+  "repo": "BoomerAng9/Locale-by-ACHIEVEMOR-2",
+  "tier": 2,
+  "role": "frontend",
+  "label": "Locale by ACHIEVEMOR v2 — Locale Frontend",
+  "description": "Next-gen Locale frontend with ACHIEVEMOR brand integration. Consumer-facing UI for the LUC calculation engine. This repo is the UI layer — LUC-Locale-Universal-Calculator is the authoritative engine.",
+  "provides": ["locale-frontend", "locale-ui", "achievemor-integration"],
+  "consumes": ["luc-engine", "aims-frontend", "destinations-data", "currency-conversion"],
+  "endpoints": {},
+  "hub": "BoomerAng9/AIMS",
+  "peers": [
+    "BoomerAng9/AIMS",
+    "BoomerAng9/LUC-Locale-Universal-Calculator",
+    "BoomerAng9/destinations-ai"
+  ],
+  "chatIcon": {
+    "asset": "assets/acheevy-helmet.png",
+    "rule": "ACHEEVY Helmet is the ONLY primary chat avatar. Locale surfaces show ACHEEVY with ACHIEVEMOR branding."
+  },
+  "context": {
+    "relationship": "Locale v2 is the consumer UI. LUC is the engine. No duplicate calculation logic here — this repo renders results from LUC.",
+    "achievemor": "ACHIEVEMOR is the brand umbrella. Locale v2 carries ACHIEVEMOR visual identity while using ACHEEVY as the narrator."
+  }
+}

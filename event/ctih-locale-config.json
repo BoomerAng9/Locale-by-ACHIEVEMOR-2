@@ -1,0 +1,17 @@
+{
+  "event": {
+    "name": "Coastal Talent and Innovation Hack-A-Thon",
+    "shortCode": "CTIH"
+  },
+  "locale_role": {
+    "description": "Locale by ACHIEVEMOR handles multi-currency payment support for international sponsors and virtual attendees at CTIH.",
+    "supported_currencies": ["USD", "EUR", "GBP", "CAD", "AUD", "JPY", "NGN", "KES", "ZAR", "INR", "BRL"],
+    "default_currency": "USD",
+    "stripe_multi_currency": true,
+    "pricing_display": {
+      "show_local_currency": true,
+      "conversion_source": "stripe_fx",
+      "fallback": "USD"
+    }
+  }
+}
